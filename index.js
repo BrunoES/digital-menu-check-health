@@ -4,7 +4,7 @@ const axios = require("axios");
 cron.schedule("0 */10 * * * *", function () {
   console.log("---------------------");
   console.log("Checking every 10 minutes");
-/*
+
   axios.get("https://digital-menu-api-0.onrender.com")
     .then(function (response) {
         console.log("Backend OK");
@@ -28,6 +28,6 @@ cron.schedule("0 */10 * * * *", function () {
         console.log(error);
     })
     .finally(function () {
-    });*/
+    });
 
 });
